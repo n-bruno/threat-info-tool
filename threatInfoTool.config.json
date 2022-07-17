@@ -1,0 +1,27 @@
+{
+    "enable": false,
+    "logFile": "./logs.txt",
+    "server":
+    {
+        "host": "127.0.0.1",
+        "port": "8080",
+        "ssl":
+        {
+            "enable": false,
+            "certFile": "",
+            "keyFile": ""
+        }
+    },
+    "http":
+    {
+        "timeout": 5
+    },
+    "apiKeys":
+    {
+        
+    },
+    "abuseIpDb":{
+        "apiKey": "",
+        "url": "https://api.abuseipdb.com/api/v2/check"
+    }
+}
